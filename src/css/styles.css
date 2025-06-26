@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  padding: 20px 20px 20px 64px;
+  border: 1px solid rgba(150, 149, 149, 0.3);
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.logo {
+  width: 34px;
+  height: 34px;
+}
+
+.hero {
+  position: relative;
+  background-size: cover;
+  min-height: 850px;
+  height: 100vh;
+  background-image: url('../image/fons1.jpg');
+  box-sizing: border-box;
+  padding: 260px 0 0 64px;
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  font-size: 36px;
+}
+
+.text {
+  font-size: 18px;
+  margin: 12px 0 40px 0;
+}
+
+.btn {
+  border-radius: 200px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.925);
+  padding: 4px;
+  width: 196px;
+  height: 56px;
+  text-align: center;
+  padding: 18px 0 18px 0;
+  color: var(--white);
+  font-size: 16px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: var(--button-hover);
+}
+.footer {
+  padding: 40px 40px 40px 64px;
+}
+
+@media (min-width: 1440px) {
+  .hero {
+    background-image: url('../image/fons3.jpg');
+  }
+}
