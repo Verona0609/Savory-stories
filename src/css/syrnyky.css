@@ -70,7 +70,7 @@ ol li::marker {
 .end-text {
   display: flex;
   justify-content: center;
-  margin: 38px 0 18px 0;
+  margin: 48px 0 18px 0;
 }
 .navigathion {
   display: flex;
@@ -86,7 +86,6 @@ ol li::marker {
   text-decoration: none;
   color: var(--main);
   font-weight: 500;
-
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
