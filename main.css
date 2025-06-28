@@ -6,11 +6,11 @@
   --font-weight-semibold: 600;
 
   --main: #101828;
-  --text: #475467;
+  --text: #535353;
   --white: #fff;
 
-  --badges: #f7ebe0;
-  --gray: #6c717b;
+  --badges: rgba(255, 255, 255, 0.6);
+  --border: 1px solid rgba(150, 149, 149, 0.3);
 }
 
 body {
@@ -58,7 +58,6 @@ ul,
 ol {
   margin: 0;
   padding: 0;
-  /* list-style: none; */
 }
 
 a {

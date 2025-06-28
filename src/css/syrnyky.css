@@ -1,8 +1,7 @@
 .header {
-  margin: 0 auto;
   display: flex;
-  border: var(--border);
   padding: 20px 20px 20px 64px;
+  border: var(--border);
   align-items: center;
   gap: 10px;
   font-size: 18px;
@@ -25,9 +24,6 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(212, 211, 211, 0.3);
   text-align: center;
-}
-
-.name {
   font-size: 26px;
   color: var(--text);
   font-family: 'Inter', serif;
@@ -53,7 +49,7 @@
   line-height: 1.8;
   padding-left: 20px;
   color: var(--text);
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   font-style: italic;
 }
 
@@ -71,14 +67,17 @@ ol li::marker {
   font-style: italic;
   margin-bottom: 16px;
 }
+.end-text {
+  display: flex;
+  justify-content: center;
+  margin: 38px 0 18px 0;
+}
 .navigathion {
   display: flex;
   justify-content: center;
-  gap: 16px;
 }
 
 .nav-btn {
-  margin-top: 48px;
   padding: 16px 20px;
   border: 1px solid #ccc;
   background-color: var(--badges);
@@ -87,6 +86,7 @@ ol li::marker {
   text-decoration: none;
   color: var(--main);
   font-weight: 500;
+
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 

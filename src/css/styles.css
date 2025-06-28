@@ -1,7 +1,7 @@
 .header {
   display: flex;
   padding: 20px 20px 20px 64px;
-  border: 1px solid rgba(150, 149, 149, 0.3);
+  border: var(--border);
   align-items: center;
   gap: 10px;
   font-size: 18px;
@@ -35,7 +35,6 @@
   border-radius: 200px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.925);
-
   width: 196px;
   height: 56px;
   text-align: center;
@@ -55,7 +54,7 @@
 
 @media (min-width: 1440px) {
   .hero {
-    background-image: url('../image/fons3.jpg');
+    background-image: url('../image/fons2.jpg');
     padding: 0 0 0 67px;
     justify-content: center;
   }
