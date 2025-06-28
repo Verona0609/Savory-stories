@@ -29,14 +29,6 @@ body {
   box-sizing: border-box;
 }
 
-.container {
-  width: 100%;
-  max-width: 1440px;
-  overflow-x: hidden;
-  margin: 0 auto;
-  padding: 48px 54px;
-}
-
 h1,
 h2,
 h3,
@@ -74,4 +66,33 @@ button {
   border: none;
   background-color: transparent;
   padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+@media only screen and (min-width: 390px) {
+  .container {
+    padding: 50px 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    margin: 0 auto;
+    padding: 48px 54px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    padding: 48px 54px;
+    max-width: 1400px;
+    margin: auto;
+  }
 }
