@@ -134,13 +134,4 @@ ol li::marker {
     width: 500px;
     height: 700px;
   }
-  .ingredientBox {
-    width: 500px;
-    height: 700px;
-    padding: 62px 56px;
-  }
-  .photo {
-    width: 500px;
-    height: 700px;
-  }
 }

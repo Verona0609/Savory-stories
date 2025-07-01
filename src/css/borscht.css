@@ -129,17 +129,8 @@ ol li::marker {
     flex-direction: row;
     justify-content: center;
   }
-  .nameBox {
-    width: 500px;
-    height: 700px;
-  }
+
   .ingredientBox {
-    width: 500px;
-    height: 700px;
     padding: 40px 50px;
-  }
-  .photo {
-    width: 500px;
-    height: 700px;
   }
 }
